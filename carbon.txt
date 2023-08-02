@@ -1,0 +1,24 @@
+## This is the carbon.txt file for BentleyHensel.com
+#
+# Learn more about carbon.txt
+# https://bentleyhensel.com/what-is-a-carbon-txt-file/
+# https://carbontxt.org/faq
+
+# Check how your energy is generated
+# https://www.epa.gov/egrid/power-profiler
+
+# This website is self-hosted
+
+
+[upstream]
+providers = [
+    # An array of providers bentleyhensel.com is using to deliver our service
+    { domain='cloudflare.com', service = 'cdn' }
+]
+
+[org]
+credentials = [
+    # Optional.
+    # An array of documents that point to evidence of green claims made by BentleyHensel.com.
+    { domain='bentleyhensel.com', doctype = 'webpage', url = 'https://bentleyhensel.com/sustainability/'}
+]
