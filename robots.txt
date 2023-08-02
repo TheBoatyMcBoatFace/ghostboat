@@ -1,0 +1,42 @@
+# robots.txt for BentleyHensel.com
+
+# User Agents
+User-agent: *
+
+# Remember, * means all, just like when you use it in your SQL queries
+# Be nice and don't `DROP TABLE users; --` or anything like that ;)
+
+# Sitemaps
+# It's not just a map, it's a treasure map. X marks the spot!
+
+Sitemap: https://bentleyhensel.com/sitemap.xml
+
+# RSS Feed(s)
+# Info: https://ghost.org/integrations/custom-rss/
+# Main Feed
+https://bentleyhensel.com/rss/
+
+# Feeds by Author
+# https://bentleyhensel.com/author/bentley/rss/
+
+# Feeds by Tag/Topic
+# https://bentleyhensel.com/topic/guides/rss/
+
+# No Go Zones
+Disallow: /ghost/
+# Sorry, we ain't afraid of no ghost, but you should be!
+
+Disallow: /p/
+# Psst... P stands for private. It's a secret!
+
+Disallow: /email/
+# No peeking at our emails. The NSA is already doing that!
+
+Disallow: /r/
+# This isn't Reddit. Stay out of the /r/ folder.
+
+# Joke for the road:
+# Why don't developers trust CSS?
+# Because it's always changing styles!
+
+# Stay shiny, bots! <3 @TheBoatyMcBoatFace
