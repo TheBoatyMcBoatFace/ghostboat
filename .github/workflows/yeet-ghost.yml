@@ -1,5 +1,6 @@
 # https://github.com/marketplace/actions/deploy-ghost-theme
 name: Deploy Theme
+
 on:
   push:
     branches:
