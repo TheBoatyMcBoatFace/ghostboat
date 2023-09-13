@@ -67,7 +67,9 @@ jobs:
           token: ${{ secrets.BOT_TOKEN }}
 
   configure-sentry:
-    needs: versioning
+    needs:
+      - versioning
+      - create-release
     name: Configure Sentry
     runs-on: ubuntu-latest
     steps:
